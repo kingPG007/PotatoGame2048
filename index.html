@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://game.potato.im/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="icon" href="https://game.potato.im/icon.jpg" type="img/x-ico">
+  <title>2048</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1">
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="360-fullscreen" content="true">
+  
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="./css/style-mobile.72851.css">
+
+<style type="text/css">
+  .pstats {
+    position: fixed;
+    z-index: 9999;
+
+    padding: 5px;
+    width: 250px;
+    right: 5px;
+    bottom: 5px;
+
+    font-size: 10px;
+    font-family: 'Roboto Condensed', tahoma, sans-serif;
+    overflow: hidden;
+    user-select: none;
+    cursor: default;
+
+    background: #222;
+    border-radius: 3px;
+  }
+
+  .pstats-container {
+    display: block;
+    position: relative;
+    color: #888;
+    white-space: nowrap;
+  }
+
+  .pstats-item {
+    position: absolute;
+    width: 250px;
+    height: 12px;
+    left: 0px;
+  }
+
+  .pstats-label {
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    text-align: left;
+    transition: background 0.3s;
+  }
+
+  .pstats-label.alarm {
+    color: #ccc;
+    background: #800;
+
+    transition: background 0s;
+  }
+
+  .pstats-counter-id {
+    position: absolute;
+    width: 90px;
+    left: 0px;
+  }
+
+  .pstats-counter-value {
+    position: absolute;
+    width: 60px;
+    left: 90px;
+    text-align: right;
+  }
+
+  .pstats-canvas {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+  }
+
+  .pstats-fraction {
+    position: absolute;
+    width: 250px;
+    left: 0px;
+  }
+
+  .pstats-legend {
+    position: absolute;
+    width: 150px;
+
+    text-align: right;
+  }
+
+  .pstats-legend > span {
+    position: absolute;
+    right: 0px;
+  }
+</style><style>.cocosVideo:-moz-full-screen{transform:matrix(1,0,0,1,0,0) !important;}.cocosVideo:full-screen{transform:matrix(1,0,0,1,0,0) !important;}.cocosVideo:-webkit-full-screen{transform:matrix(1,0,0,1,0,0) !important;}</style></head>
+<body>
+  <div id="Cocos2dGameContainer" style="transform: rotate(0deg); width: 528px; height: 939px; margin: 0px; padding: 0px 546px;"><canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99" class="gameCanvas" width="1056" height="1878" style="width: 528px; height: 939px;"></canvas></div>
+  <div id="splash" style="display: none;">
+    <div class="progress-bar stripes">
+      <span style="width: 100%;"></span>
+    </div>
+  </div>
+<script type="text/javascript" async="" src="./js/analytics.js"></script><script src="./js/settings.99b20.js" charset="utf-8"></script>
+
+<script src="./js/main.fa972.js" charset="utf-8"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./js/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132434448-1');
+</script>
+
+
+<script src="./js/potatojsapi.js" defer=""></script></body></html>
